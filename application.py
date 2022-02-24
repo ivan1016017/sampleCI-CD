@@ -5,11 +5,11 @@ application = Flask(__name__)
 
 @application.route("/")
 def root():
-    return render_template("index.html")
+    return "Hello World from Flask Hello Page.<b> v1.0"
 
 @application.route("/help")
 def helppage():
-    return render_template("help.html")
+    return "Hello World from Flask Hello Page.<b> v1.0"
 
 @application.route("/hello")
 def index():
